@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Bookmarks::Application.config.secret_token = 'e487cf2e059dc10e74318fdf4f51fe83c105eda070652d8c75cd4562949e46df7ae8750f4c6f2f494e5afa02305d2f510b782fe92a9f8326cdac802d4373bcde'
+Petshop::Application.config.secret_token = 'f865e74a5c2af7ed6bcea972bb98ff30e57624db1e21f773bae1864c93a4540a3f540d6256f03051c02cd4518abd34245246656a6b93e769a5dbff54261bc419'

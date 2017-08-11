@@ -2,8 +2,10 @@
 
 <table>
   <tr>
-    <th>Title</th>
-    <th>Url</th>
+    <th>Species:</th>
+    <th>Breed:</th>
+    <th>Price:</th>
+    <th>Status:</th>
     <th></th>
     <th></th>
     <th></th>
@@ -11,8 +13,10 @@
 
 <% @bookmarks.each do |bookmark| %>
   <tr>
-    <td><%= bookmark.title %></td>
-    <td><%= bookmark.url %></td>
+    <td><%= bookmark.Species %></td>
+    <td><%= bookmark.Breed %></td>
+    <td><%= bookmark.Price %></td>
+    <td><%= bookmark.Status %></td>
     <td><%= link_to 'Show', bookmark %></td>
     <td><%= link_to 'Edit', edit_bookmark_path(bookmark) %></td>
     <td><%= link_to 'Destroy', bookmark, method: :delete, data: { confirm: 'Are you sure?' } %></td>
